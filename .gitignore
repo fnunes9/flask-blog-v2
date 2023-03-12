@@ -1,0 +1,10 @@
+# Data base
+*.db
+
+# ENV
+.env*
+env*
+*config.py
+
+# others
+*.bckp
