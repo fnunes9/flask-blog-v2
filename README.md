@@ -24,6 +24,10 @@ Para este exercício, você deverá clonar este repositório. Suas credenciais d
 2. crie um arquivo .env contendo as variáveis de ambiente: **SESSION_SECRET_KEY_DEV** e uma string hexadecimal como valor (use o *python secrets*), **DB_USERNAME=postgres** e **DB_PASSWORD=admin123**. As duas últimas variáveis de ambiente, usaremos na definição no banco. Este arquivo terá somente três linhas, da seguinte maneira: *SESSION_SECRET_KEY_DEV='string-gerada-pelo-python-secrets'*
 *DB_USERNAME=postgres*
 *DB_PASSWORD=admin123*
+
+No terminal digitar python3
+importar a classe secrets - import secrets
+digitar secrets.token_hex(numero de caracteres desejados)
 3. crie o arquivo *.config.py* e carregue o *.env*. Este arquivo conterá a linha de import `from dotenv import load_dotenv` e a linha `load_dotenv()`.
 
 ## (2) Interagindo com a aplicação localmente
