@@ -87,6 +87,8 @@ O acesso ao banco foi concedido, por meio do usuário *postgres*. Acesse o link 
    11. Não há servidor cadastrado. Registre um servidor e informe os seguintes parâmetros de conexão: 
       a. Na aba *General* informar a identificação (*Name*) da conexão.
       b. Na aba *Connection*, informe o *hostname: postgresql*, *Port: 5432*, *Username: postgres* e *Password: admin123*. Marque para deixar a senha salva.
+      
+*Nota*: Em caso de erro no pgAdmin: https://github.com/orgs/community/discussions/17918
 
 Assim o gerenciador já está conectado ao postgres, isto é, dois conteineres estão se comunicando. Agora vamos criar um banco para a aplicação.
 
